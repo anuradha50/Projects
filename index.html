@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en-GB">
+<meta charset="utf-8">
+<link rel="stylesheet" type="text/css">
+<head>
+    <body>
+    <div id="gradient"></div>
+    <div id="page">
+    <div id="Message-Container">
+        <div id="message">
+        <h1>Congratulatins</h1>
+        <p>You are done.</p>
+        <input id="okBtn" type="button" onclick="toggleVisibility('Message-container')" value="Cool!" />
+        </div>
+        </div>
+        <div id="menu">
+            <div class="custom-select">
+                <select id="diffSelect">
+                    <option value="10">Easy </option>
+                    <option value="15">Medium</option>
+                    <option value="25">Hard</option>
+                    <option value="38">Extreme</option>
+                </select>
+            </div>
+            <input id="startMazeBtn" type="button" onclick="makeMaze()" value="Start">
+        </div>
+        <div id="view">
+            <div id="mazeContainer">
+                <canvas id="mazeCanvas" class="border" height="1100" width="1100">
+
+                </canvas>
+            </div>
+        </div>
+        </div>
+            <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+</body>
+</html>
+
